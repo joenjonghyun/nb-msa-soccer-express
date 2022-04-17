@@ -3,7 +3,7 @@ module.exports = mongoose => mongoose.model('user',
            {userid: String,
             password: String,  
             email: String,
-            name: String,  
+            name: String, 
             phone: String,
             birth: String,
             address: String
